@@ -3,10 +3,10 @@
 
 ## Usage
 ```shell
-$ git clone
+$ git clone https://github.com/shen-zhao/vue-template-generate.git your_project_name
 ```
 ```shell
-$ cd
+$ cd your_project_name
 ```
 ```shell
 $ rm -rf .git
