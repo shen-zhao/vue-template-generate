@@ -1,18 +1,24 @@
 import http from '@/utils/request';
 import api from './_api';
 
-const {apiTableList, apiSubmitLogin, apiDel, apiModOrAdd, permissionList} = api;
+const {
+  apiTableList,
+  apiSubmitLogin,
+  apiDel,
+  apiModOrAdd,
+  permissionList
+} = api;
 
 /**
  * 登录
  * @param data
  */
 export function loginReq(data) {
-    return http({
-        url: apiSubmitLogin,
-        method: 'post',
-        data
-    });
+  return http({
+    url: apiSubmitLogin,
+    method: 'post',
+    data
+  });
 }
 
 /**
@@ -20,11 +26,11 @@ export function loginReq(data) {
  * @param params
  */
 export function fetchList(params) {
-    return http({
-        url: apiTableList,
-        method: 'get',
-        params: params
-    });
+  return http({
+    url: apiTableList,
+    method: 'get',
+    params: params
+  });
 }
 
 /**
@@ -32,11 +38,11 @@ export function fetchList(params) {
  * @param data
  */
 export function modOrAdd(data) {
-    return http({
-        url: apiModOrAdd,
-        method: 'post',
-        data
-    });
+  return http({
+    url: apiModOrAdd,
+    method: 'post',
+    data
+  });
 }
 
 /**
@@ -44,11 +50,11 @@ export function modOrAdd(data) {
  * @param data
  */
 export function del(data) {
-    return http({
-        url: apiDel,
-        method: 'post',
-        data
-    });
+  return http({
+    url: apiDel,
+    method: 'post',
+    data
+  });
 }
 
 /**
@@ -57,9 +63,9 @@ export function del(data) {
  */
 
 export function getPermissions(data) {
-    return http({
-        url: permissionList,
-        method: 'get',
-        data
-    });
+  return http({
+    url: permissionList,
+    method: 'get',
+    data
+  });
 }

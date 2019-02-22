@@ -14,14 +14,16 @@ import './permission';
 Vue.config.productionTip = false;
 
 Vue.use(Element, {
-    size: 'medium' // set element-ui default size
+  size: 'medium' // set element-ui default size
 });
 
 /* eslint-disable no-new */
 new Vue({
-    el: '#app',
-    router,
-    store,
-    components: {App},
-    template: '<App/>'
+  el: '#app',
+  router,
+  store,
+  components: {
+    App
+  },
+  template: '<App/>'
 });

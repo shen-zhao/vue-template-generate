@@ -7,5 +7,5 @@
  */
 
 export default function _import(path) {
-    return () => import(`@/pages/${path}`);
+  return () => import(`@/pages/${path}`);
 }

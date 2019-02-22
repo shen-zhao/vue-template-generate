@@ -5,7 +5,7 @@ import _import from './_import';
 Vue.use(Router);
 
 export default new Router({
-    routes: [
+  routes: [
 
-    ]
+  ]
 });

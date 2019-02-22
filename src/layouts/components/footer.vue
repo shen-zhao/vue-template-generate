@@ -1,9 +1,9 @@
 <template>
-    <div></div>
+  <div></div>
 </template>
 
 <script>
-    export default {
-        name: 'footer'
-    };
+export default {
+  name: "footer"
+};
 </script>
